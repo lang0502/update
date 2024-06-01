@@ -1,0 +1,111 @@
+<!-- Index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;300;400;500&family=Raleway:wght@100;200;300;400;500&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+<!-- SGVsbG8hIE15IG5hbWUgaXMgU2FyYSBNYXphbC4gV2VsY29tZSB0byBteSBDb2RlUGVuOiBodHRwczovL2NvZGVwZW4uaW8vU2FyYW1hemFsICYgR2l0SHViOiBodHRwczovL2dpdGh1Yi5jb20vc2FyYW1hemFs -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="f/style.css">
+<head>
+    <title>Pin Pad</title>
+    <link rel="stylesheet"
+        href="f/style.css"/>
+</head>
+
+<body>
+    <h2 class="text-center">Pasword nya dulu</h2>
+    <div class="container">
+        <div class="card">
+            <div class="card-header">
+                <input type="password"
+                    id="pinpad-input"
+                    readonly />
+            </div>
+            <div>
+                <div class="row">
+                    <button type="button"
+                            class="pinpad-btn"
+                            value="1">
+                            1
+                    </button>
+                    <button type="button"
+                            class="pinpad-btn"
+                            value="2">
+                            2
+                    </button>
+                    <button type="button"
+                            class="pinpad-btn"
+                            value="3">
+                            3
+                    </button>
+                </div>
+                <div class="row">
+                    <button type="button"
+                            class="pinpad-btn"
+                            value="4">
+                            4
+                    </button>
+                    <button type="button"
+                            class="pinpad-btn"
+                            value="5">
+                            5
+                    </button>
+                    <button type="button"
+                            class="pinpad-btn"
+                            value="6">
+                            6
+                    </button>
+                </div>
+                <div class="row">
+                    <button type="button"
+                            class="pinpad-btn"
+                            value="7">
+                            7
+                    </button>
+                    <button type="button"
+                            class="pinpad-btn"
+                            value="8">
+                            8
+                    </button>
+                    <button type="button"
+                            class="pinpad-btn"
+                            value="9">
+                            9
+                    </button>
+                    
+                </div>
+                <div class="row">
+                    <button type="button"
+                            class="pinpad-btn"
+                            value="del
+                            "
+                        id="delete-btn">
+                        Del
+                    </button>
+                    <button type="button"
+                            class="pinpad-btn"
+                            value="0">
+                            0
+                    </button>
+                    <button type="button"
+                            class="pinpad-btn"
+                            value="ok"
+                            id="submit-btn">
+                        Ok
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="modal" class="modal">
+            <div class="modal-body">
+                <h1 id="close"></h1>
+                <p id="result"></p>
+            </div>
+        </div>
+    </div>
+        <script src="f/script.js"></script>
+</body>
+
+</html>

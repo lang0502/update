@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Ayangg</title>
+  <script src="https://cdn.tailwindcss.com"></script><link rel="stylesheet" href="loveika/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<audio id="audio" loop src="https://lang0502.github.io/galngfp/scotflag.mp3"></audio>
+<!-- partial:index.partial.html -->
+<h1 class="text-[clamp(20px,5vmin,100px)] text-center">Tolong di scrol sampe bawah  <i class="fa fa-envelope-open"></i></h1>
+ <button id="audiobutton" class="audio-icon-button">
+  <div class="bar"></div>
+  <div class="bar"></div>
+  <div class="bar"></div>
+  <div class="bar"></div>
+  <div class="bar"></div>
+</button>
+<div class="top-0 left-0 fixed inset-0 grid place-items-center">
+  <div class="envelope relative w-[60vmin] aspect-video bg-slate-200 shadow-xl">
+    <div class="flap bg-slate-300">
+  
+    </div>
+    <div class="heart"></div>
+    <div class="face bg-slate-100 inset-0 absolute z-[3]"></div>
+    <h2 class="text-to-show relative z-10 pt-[6cqw] text-center text-[5cqw] ">"Maaf ya belum bisa jadi apa apa buat kamu,insya allah saya bakal berusaha terus buat kamu yang terbaik buat kamu ."<br/><br/><br/></h2>
+  </div>  
+</div>
+<!-- partial -->
+  <script>
+  (() => {
+    window.audiobutton.addEventListener('click', () => {
+      if (window.audio.paused) {
+        window.audio.play();
+      } else {
+        window.audio.pause();
+      }
+    });
+  })();
+</script>
+</body>
+</html>
