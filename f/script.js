@@ -58,7 +58,7 @@ submitBtn.addEventListener(
             correctPin
         ) {
           
-          window.location="menu1.html";
+          window.location="love.html";
             alert("Lanjut di scrol sayang ya");
         } else {
         
